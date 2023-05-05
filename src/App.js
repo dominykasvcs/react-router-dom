@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 import Home from './routes/home/Home'
 import About from './routes/about/About'
 import Contacts from './routes/contacts/Contacts'
+import './app.css'
 
 const App = () => {
   return (

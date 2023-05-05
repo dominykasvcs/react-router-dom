@@ -1,0 +1,26 @@
+.cards {
+    width: 100%;
+}
+
+.cards .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 60px 0;
+}
+.card {
+    width: 33%;
+    border: 1px solid #000;
+}
+
+.card-head {
+    height: 200px;
+    background-color: orange;
+}
+
+.card-body {
+    padding: 20px;
+}
+.card-body h1 {
+    margin-bottom: 14px
+}
